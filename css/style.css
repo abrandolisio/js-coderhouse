@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.tarjetas{
+  display: flex;
+  padding: 2em;
+  background-color: #a5a5a5;
+}
+
+.card-group{
+  width: 100%;
+}
+
+.card img{
+  width: 383px;
+  height: 180px;
+  margin-top: 2em;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card{
+  align-items: center;
+}
+
+#riesgo{
+  color: red;
+}
+
+/* START PORTADA */
+#portada{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 90vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+  )
+  ,url("../img/portada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#portada a{
+  text-decoration: none;
+  color: white;
+}
+
+#portada h1{
+  color: white;
+}
+
+.palabra{
+  color: rgb(83, 177, 66);
+}
+
+/* END PORTADA */
+
+.cuerpo{
+  background-color: rgba(44, 41, 41, 0.116)
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container-fluid .navbar-brand img{
+  width: 30%;
+  height:30%;
+}
+
+.seleccionado{
+  color: rgb(133, 196, 64);
+}
+
+
+.scroll-up-btn:hover {
+  color:#696969!important;
+}
+
+.footer-text__disclaimer{
+  font-size: 10px !important;
+}
+
+#simulador{
+  background-color: #0C6B3A;
+  border-radius: 10px;
+  width: 90%;
+}
+
+footer .copyright{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 6em;
+}
+footer p{
+  margin: 0;
+  padding: 12px;
+  color: rgb(100,100,100);
+}
+
+footer{
+  background-color: rgb(33, 37, 41);
+  margin-top: 2em;
+}

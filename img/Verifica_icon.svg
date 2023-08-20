@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 120 102" style="enable-background:new 0 0 120 102;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#0C6B3A;}
+	.st2{filter:url(#Adobe_OpacityMaskFilter);}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st4{mask:url(#mask-2_1_);fill-rule:evenodd;clip-rule:evenodd;fill:#1C7C47;}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:#A6CE39;}
+	.st6{filter:url(#Adobe_OpacityMaskFilter_1_);}
+	.st7{mask:url(#mask-4_1_);fill-rule:evenodd;clip-rule:evenodd;fill:#006D38;}
+	.st8{filter:url(#Adobe_OpacityMaskFilter_2_);}
+	.st9{mask:url(#mask-4_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#006D38;}
+	.st10{fill-rule:evenodd;clip-rule:evenodd;fill:#A5D027;}
+	.st11{filter:url(#Adobe_OpacityMaskFilter_3_);}
+	.st12{mask:url(#mask-6_1_);fill-rule:evenodd;clip-rule:evenodd;fill:#B8E885;}
+	.st13{filter:url(#Adobe_OpacityMaskFilter_4_);}
+	.st14{mask:url(#mask-8_1_);fill-rule:evenodd;clip-rule:evenodd;fill:#B8E885;}
+	.st15{filter:url(#Adobe_OpacityMaskFilter_5_);}
+	.st16{mask:url(#mask-8_4_);fill:#FFFFFF;}
+</style>
+<title>Verifica_icon</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="vivus.es_icons_2.png" transform="translate(-1017.000000, -1244.000000)">
+		<g id="Verifica_icon" transform="translate(1017.000000, 1240.000000)">
+			<g id="Page-1-Copy-101">
+				<rect id="Rectangle-15" x="7" y="0" class="st0" width="64" height="64"/>
+				<g id="Group-2" transform="translate(0.000000, 15.000000)">
+					<g id="Rectangle-3">
+						<g id="Rectangle-2">
+							<path class="st1" d="M0,0h106v64c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V0z"/>
+						</g>
+						<defs>
+							<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="-3" y="4" width="58" height="65">
+								<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+							</filter>
+						</defs>
+						<mask maskUnits="userSpaceOnUse" x="-3" y="4" width="58" height="65" id="mask-2_1_">
+							<g class="st2">
+								<path id="path-1_1_" class="st3" d="M0,0h106v64c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V0z"/>
+							</g>
+						</mask>
+						<polygon id="Rectangle-2-Copy" class="st4" points="-3,4 55,4 55,69 -3,69 						"/>
+					</g>
+					<g id="Group-33" transform="translate(9.000000, 17.000000)">
+						<g id="Oval">
+							<circle class="st5" cx="18" cy="18" r="18"/>
+						</g>
+						<defs>
+							<filter id="Adobe_OpacityMaskFilter_1_" filterUnits="userSpaceOnUse" x="6.4" y="23.3" width="23.3" height="13.6">
+								<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+							</filter>
+						</defs>
+						<mask maskUnits="userSpaceOnUse" x="6.4" y="23.3" width="23.3" height="13.6" id="mask-4_1_">
+							<g class="st6">
+								<circle id="path-3_1_" class="st3" cx="18" cy="18" r="18"/>
+							</g>
+						</mask>
+						<path class="st7" d="M16.4,23.3h3.3c5.5,0,10,4.5,10,10v3.6H6.4v-3.6C6.4,27.8,10.8,23.3,16.4,23.3z"/>
+						<defs>
+							<filter id="Adobe_OpacityMaskFilter_2_" filterUnits="userSpaceOnUse" x="11.6" y="8.5" width="12.7" height="12.7">
+								<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+							</filter>
+						</defs>
+						<mask maskUnits="userSpaceOnUse" x="11.6" y="8.5" width="12.7" height="12.7" id="mask-4_2_">
+							<g class="st8">
+								<circle id="path-3_2_" class="st3" cx="18" cy="18" r="18"/>
+							</g>
+						</mask>
+						<circle id="Oval-Copy-2" class="st9" cx="18" cy="14.8" r="6.4"/>
+					</g>
+				</g>
+				<g id="Fill-20" transform="translate(0.000000, 4.000000)">
+					<g id="Fill-4">
+						<path class="st10" d="M0,17h106V4c0-2.2-1.8-4-4-4H4C1.8,0,0,1.8,0,4V17z"/>
+					</g>
+					<defs>
+						<filter id="Adobe_OpacityMaskFilter_3_" filterUnits="userSpaceOnUse" x="-1" y="-1" width="56" height="19">
+							<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+						</filter>
+					</defs>
+					<mask maskUnits="userSpaceOnUse" x="-1" y="-1" width="56" height="19" id="mask-6_1_">
+						<g class="st11">
+							<path id="path-5_1_" class="st3" d="M0,17h106V4c0-2.2-1.8-4-4-4H4C1.8,0,0,1.8,0,4V17z"/>
+						</g>
+					</mask>
+					<path id="Fill-4-Copy" class="st12" d="M-1,18h56V-1H3C0.8-1-1,0.8-1,3V18z"/>
+				</g>
+				<path id="Fill-6" class="st3" d="M14,13c0,1.7-1.3,3-3,3s-3-1.3-3-3s1.3-3,3-3S14,11.3,14,13"/>
+				<path id="Fill-7" class="st3" d="M22,13c0,1.7-1.3,3-3,3s-3-1.3-3-3s1.3-3,3-3S22,11.3,22,13"/>
+				<path id="Fill-7-Copy" class="st3" d="M30,13c0,1.7-1.3,3-3,3s-3-1.3-3-3s1.3-3,3-3S30,11.3,30,13"/>
+			</g>
+			<g id="Group" transform="translate(72.000000, 51.000000)">
+				<g id="Fill-3">
+					<path class="st5" d="M0.1,8.6C0.1,24-3.2,46.1,24,55c27.2-9,23.9-31,23.9-46.4C38,8.6,30.4,5.9,24,0C17.6,5.9,10,8.6,0.1,8.6z"
+						/>
+				</g>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter_4_" filterUnits="userSpaceOnUse" x="-3" y="-1" width="27" height="60">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="-3" y="-1" width="27" height="60" id="mask-8_1_">
+					<g class="st13">
+						<path id="path-7_1_" class="st3" d="M0.1,8.6C0.1,24-3.2,46.1,24,55c27.2-9,23.9-31,23.9-46.4C38,8.6,30.4,5.9,24,0
+							C17.6,5.9,10,8.6,0.1,8.6z"/>
+					</g>
+				</mask>
+				<rect id="Rectangle" x="-3" y="-1" class="st14" width="27" height="60"/>
+				<defs>
+					<filter id="Adobe_OpacityMaskFilter_5_" filterUnits="userSpaceOnUse" x="10.9" y="18.2" width="29.8" height="21.1">
+						<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+					</filter>
+				</defs>
+				<mask maskUnits="userSpaceOnUse" x="10.9" y="18.2" width="29.8" height="21.1" id="mask-8_4_">
+					<g class="st15">
+						<path id="path-7_4_" class="st3" d="M0.1,8.6C0.1,24-3.2,46.1,24,55c27.2-9,23.9-31,23.9-46.4C38,8.6,30.4,5.9,24,0
+							C17.6,5.9,10,8.6,0.1,8.6z"/>
+					</g>
+				</mask>
+				<path class="st16" d="M21.6,39.3c-0.5,0-1-0.2-1.4-0.6l-8.7-8.6c-0.8-0.8-0.8-2,0-2.8c0.8-0.8,2-0.8,2.8,0l7.2,7.2l15.8-15.7
+					c0.8-0.8,2-0.8,2.8,0s0.8,2,0,2.8L23,38.7C22.6,39.1,22.1,39.3,21.6,39.3z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

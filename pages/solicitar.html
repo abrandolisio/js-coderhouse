@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+      <title>Préstamos Efectivo</title>
+       <!-- ARCHIVOS CSS -->
+      <link rel="stylesheet" href="../css/style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body class="cuerpo">
+       <!-- HEADER -->
+      <header>
+          <div class="container-fluid bg-dark"  data-bs-theme="dark">
+              <nav class="navbar navbar-expand-lg">
+                  <div class="container-fluid">
+                      <a class="navbar-brand" href="../index.html">
+                        <img src="../img/logo2.png" alt="Préstamos Efectivo logo" class="d-inline-block align-text-top img-fluid d-none d-md-inline-block">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                          <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            <a class="nav-link" href="#">Nosotros</a>
+                            <a class="nav-link" href="#">Contacto</a>
+                          </div>
+                      </div>
+                  </div>
+              </nav>
+              <div id="cotizaciones" class="row bg-light d-flex justify-content-center"></div>
+          </div>
+      </header>
+  <!-- MAIN -->
+  <main>
+    <section>
+      <div class="container">
+          <div class="row">               
+            <div class="row g-5">
+              <div class="col-md-5 col-lg-4 order-md-last">
+                <h4 class="seleccionado d-flex justify-content-between align-items-center mb-3">
+                <span>Préstamo Seleccionado</span></h4>
+                <!-- Préstamo Seleccionado -->
+                <div id="prestamoSeleccionado"></div>
+                <!-- Borrar Data -->
+                <div class="card p-2">
+                  <div class="input-group d-flex justify-content-center">
+                    <a  href="../index.html"  class="btn btn-outline-success">Volver</a>
+                    <button  class="btn btn-outline-danger" onclick="borrarSolicitud()" title="Borrar Simulacion">Borrar</button>
+                  </div>
+                </div>
+              </div>
+              <!-- Formulario de contacto -->
+              <div class="col-md-7 col-lg-8">
+                <h4 class="seleccionado mb-3">DATOS DE CONTACTO</h4>
+                <!-- Envio el formulario a mi email-->
+                  <form id="formCtto" class="needs-validation" novalidate action="https://formsubmit.co/b16b2cbda064fb69ffd6082445152861" method="POST">
+                    <div class="row g-3">
+                      <div class="col-sm-6">
+                        <label for="apellido" class="form-label">Apellido</label>
+                        <input type="text" name="apellido" class="form-control" id="apellido" placeholder="Ingresá el apellido" value="" required>
+                        <div class="invalid-feedback">
+                          Ingresa el apellido.
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Ingresá el nombre" value="" required>
+                        <div class="invalid-feedback">
+                          Ingresa el nombre.
+                        </div>
+                      </div>
+
+                      <div class="col-md-3">
+                        <label for="tipoDoc" class="form-label">Tipo</label>
+                        <select class="form-select" name="tipoDoc" id="tipoDoc" required>
+                          <option value="">Tipo</option>
+                          <option value="1">DNI</option>
+                          <option value="5">PASAPORTE</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="documento" class="form-label">Documento</label>
+                        <input type="number" name="documento" class="form-control" id="documento" placeholder="Ingresá el número" required>
+                        <div class="invalid-feedback">
+                          Ingresá el número.
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <label for="fecNac" class="form-label">Fecha de Nacimiento</label>
+                        <input type="date" class="form-control" name="fecNac" id="fecNac" placeholder="Ingresá la fecha (DD/MM/AAAA)" value="" required>
+                        <div class="invalid-feedback">
+                          Ingresá la fecha (DD/MM/AAAA).
+                        </div>
+                      </div>
+
+                      <div class="col-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" name="mail" class="form-control" id="email" placeholder="email@mail.com" required>
+                        <div class="invalid-feedback">
+                          Ingresá el email.
+                        </div>
+                      </div>
+
+                      <div class="col-12">
+                        <label for="tel" class="form-label">Teléfono</label>
+                        <input type="number" name="tel" class="form-control" id="tel" placeholder="Ingresá el teléfono" required>
+                        <div class="invalid-feedback">
+                          Ingresá el teléfono.
+                        </div>
+                      </div>
+
+                      <div class="col-sm-6">
+                        <label for="estCivil" class="form-label">Estado Civil</label>
+                        <select class="form-select" name="estCivil" id="estCivil" required>
+                          <option value="">Seleccionar</option>
+                          <option value="Casado C-Comu Bienes">Casado/a</option>                          
+                          <option value="Divorciado-a">Divorciado/a</option>                          
+                          <option value="Soltero-a">Soltero/a</option>                          
+                          <option value="Viudo-a">Viudo/a</option>                          
+                        </select>
+                      </div>
+                <div class="col-md-6">
+                  <label for="ingreso" class="form-label">Ingresos Netos</label>
+                  <input type="number" name="ingreso" class="form-control" id="ingreso" placeholder="Ingresá el valor" required>
+                  <div class="invalid-feedback">
+                    Ingresá el valor.
+                  </div>
+                </div>
+
+                <hr class="my-2">
+                <div>
+                  <input type="hidden" name="infoOculta" id="infoOculta">
+                </div>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="www.google.com">
+              <button class="w-100 btn btn-secondary btn-lg" type="submit">Enviar</button>                
+          </form>
+      </div>
+  </div>  
+  </section>
+  </main>
+  <!-- inicio footer -->
+  <footer>
+    <div class="copyright">
+      <p>Préstamo Efectivo &copy 2023 </p>
+
+  </div>
+  </footer>
+  <!-- archivos javascript -->
+  <!-- LUXON = fecha, sweetalert = alertas cuando busco y para enviar data por email-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+  <script src="../js/separador.js"></script>
+  <script src="../js/solicitar.js"></script>
+  <script src="../js/cotizaciones.js"></script>
+  </body>
+</html>

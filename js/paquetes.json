@@ -1,0 +1,7 @@
+[
+  {"plazo": 12 , "intereses": 4.5},
+  {"plazo": 18 , "intereses": 5},
+  {"plazo": 24 , "intereses": 5.5},
+  {"plazo": 36 , "intereses": 6},
+  {"plazo": 48 , "intereses": 6.5}
+]
