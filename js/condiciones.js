@@ -2,7 +2,7 @@
 let condiciones = [];
 
 function cargarCondiciones() {
-  fetch("../js/paquetes.json")
+  fetch("./js/paquetes.json")
     .then((response) => response.json())
     .then((data) => {
       condiciones = data;
